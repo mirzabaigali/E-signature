@@ -25,7 +25,7 @@ const LikePhoto = () => {
       <h2>Likes {count}</h2>
       <div className="cardWrapper">
         <div class="card">
-          <img src={doggy} alt="Profile" />
+          <img src={doggy} alt="Profile" onDoubleClick={handleLike} />
           <h1>
             <AiFillSmile style={{ color: "blue" }} />
             johndoe

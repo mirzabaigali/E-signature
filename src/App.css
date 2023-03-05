@@ -44,3 +44,36 @@ body {
     transform: rotate(360deg);
   }
 }
+.btn-empty {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: #eee;
+  border-radius: 20px;
+  border: 2px solid wheat;
+}
+.btnText {
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: #eee;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.btnText:hover {
+  background-color: aqua;
+  color: #282c34;
+}
+.color {
+  color: violet;
+}
+.cardBox {
+  border: 2px solid grey;
+  margin: 8px;
+  box-shadow: 3px 3px 5px rebeccapurple;
+}
+.card-cardBox {
+  background-color: cornflowerblue;
+  background-size: cover;
+  color: white;
+}

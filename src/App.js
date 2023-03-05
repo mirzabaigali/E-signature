@@ -1,10 +1,10 @@
 import "./App.css";
-import Esignature from "./components/Esignature";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
   return (
     <div className="App">
-      <Esignature />
+      <Testimonials />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import "./App.css";
-import Esignature from "./components/Esignature";
+import LikePhoto from "./components/LikeMyPhoto/LikePhoto";
 
 function App() {
   return (
     <div className="App">
-      <Esignature />
+      <LikePhoto />
     </div>
   );
 }

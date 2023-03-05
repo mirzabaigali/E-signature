@@ -44,3 +44,60 @@ body {
     transform: rotate(360deg);
   }
 }
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #333;
+  color:whitesmoke;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  color: wheat;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-size: 16px;
+  color: wheat;
+  margin-bottom: 10px;
+}
+
+strong {
+  color: wheat;
+  font-weight: bold;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+}

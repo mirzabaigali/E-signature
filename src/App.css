@@ -14,6 +14,58 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
+.inputDanger {
+  background-color: red;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.inputSuccess {
+  background-color: green;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.inputPrimary {
+  background-color: blue;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+
+.inputWarning {
+  background-color: yellow;
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: black;
+  width: 100px;
+  height: 30px;
+}
+.inputRandom {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border-radius: 10px;
+  border: 2px solid grey;
+  color: white;
+  width: 100px;
+  height: 30px;
+}
+.RandomizeFlex {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
